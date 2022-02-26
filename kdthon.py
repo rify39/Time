@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 import os
 import asyncio
-from plugins.jmthon import *
+from plugins.kdthon import *
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.raw.functions.messages import UpdatePinnedMessage
 
@@ -15,7 +15,7 @@ bot=Client(
 
 stoptimer = False
 
-JMTHON_BUTTONS = [
+KDTHON_BUTTONS = [
             [
                 InlineKeyboardButton('الاستخدام', callback_data="HELP_CALLBACK")
             ],
