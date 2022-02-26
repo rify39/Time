@@ -1,0 +1,69 @@
+{
+
+    "name": "بوت التذكير",
+
+    "description": ".",
+
+    "repository": "https://github.com/rify39/reminder",
+
+    "logo": "",
+
+    "keywords": [
+
+        "Telegram bot",
+
+        "Pyrogram bot"
+
+    ],
+
+    "env": {
+
+        "API_ID": {
+
+            "description": "ضـع هنـآ آيبـي آيـدي",
+
+            "required": true
+
+        },
+
+        "API_HASH": {
+
+            "description": "ضـع هنـآ آيبـي هـآش",
+
+            "required": true
+
+        },
+
+        "BOT_TOKEN": {
+
+            "description": "ضـع هنـآ تـوكـن آلبـوت",
+
+            "required": true
+
+        }
+
+    },
+
+    "formation": {
+
+    "worker": {
+
+      "quantity": 1,
+
+      "size": "free"
+
+    }
+
+  },
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        }
+
+    ]
+
+}
