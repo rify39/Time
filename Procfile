@@ -1,1 +1,1 @@
-worker: python3 kdthon.py
+worker: python3 roz.py
